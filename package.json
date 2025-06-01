@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "dev":"nodemon backend/server.js",
-    "start":"node backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
   },
   "keywords": [],
-  "type":"module",
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
