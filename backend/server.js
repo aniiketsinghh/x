@@ -32,7 +32,7 @@ app.use(express.json());
 //postman meh urlencoded use krne ke liye use kiya
 app.use(express.urlencoded({extended: true}));
 
-// used cookie parser for middleware..beacuse in middleware we use requestAnimationFrame.cookie.jwt
+// used cookie parser for middleware..beacuse in middleware we use req.cookie.jwt
 app.use(cookieParser());
 
 
